@@ -1,0 +1,84 @@
+/* general */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ /*estilos del menu*/
+.containerMenu {
+  display: flex;
+  background-color: deepskyblue;
+  justify-content: flex-start;
+  width: 100%;
+}
+.hijoM {
+  align-self: center;
+  width: 17%;
+  background-color: deepskyblue;
+  padding:20px;
+}
+
+
+/* estilos imagen*/
+
+.containerImagen{
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row nowrap;
+  margin-top: 3%;
+  position: relative;
+
+}
+.bordeImagen{
+  border: silver 10px solid;
+  padding: 10px;
+
+}
+
+
+/*estilos botones  */
+
+.containerBoton{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+.estiloBoton{
+  background-color: BlueViolet;
+  padding: 10px;
+  border: 2px solid;
+  border-radius: 25px;
+  color: white;
+}
+.estiloBoton:hover {
+ background: rgba(0,0,0,0);
+ color: #3a7999;
+ box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+/*estilos texto*/
+.containerTexto{
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+  margin-top: 3%;
+
+}
+.alineaTexto{
+  width: 35%;
+}
+
+
+
+.close {
+    color: #FF1493;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+}
+    .close:hover {
+        color: #6fffd8;
+        cursor: pointer;
+    }
